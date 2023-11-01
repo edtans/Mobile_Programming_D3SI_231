@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Latihan1_Desain">
+
+    <TextView
+        android:id="@+id/labelNama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nama Anda"
+        android:textAlignment="center"
+        android:textColor="#E91E63"
+        android:textSize="50sp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtNama"
+        android:hint="isien woy"
+        android:textSize="50sp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnTampil"
+        android:text="Tampil"
+        android:textSize="50sp"/>
+
+    <CheckBox
+        android:id="@+id/cbWarna"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:fontFamily="cursive"
+        android:text="Warna"
+        android:textColor="#3F51B5"
+        android:textSize="30sp" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CheckBox" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rbLaki"
+            android:text="Laki-Laki"
+            android:textSize="50sp"/>
+
+        <RadioButton
+            android:id="@+id/rbPerempuan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Perempuan"
+            android:textSize="50sp" />
+    </RadioGroup>
+
+
+
+</LinearLayout>
